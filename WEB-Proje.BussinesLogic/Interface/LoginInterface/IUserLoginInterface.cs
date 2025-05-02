@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WEB_Proje.Domain.Entities.User;
+﻿using WEB_Proje.Domain.Entities.User;
 
 namespace WEB_Proje.BussinesLogic.Interface.LoginInterface {
     public interface IUserLoginInterface {

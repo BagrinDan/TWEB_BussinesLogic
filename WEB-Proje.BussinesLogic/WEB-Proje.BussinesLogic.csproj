@@ -118,6 +118,7 @@
     <Compile Include="Core\ClientAPI.cs" />
     <Compile Include="Core\UserEntity.cs" />
     <Compile Include="DataBase\DataBaseSQL.cs" />
+    <Compile Include="DBModel\ProductContext.cs" />
     <Compile Include="DBModel\UserContent.cs" />
     <Compile Include="Interface\ISession.cs" />
     <Compile Include="Interface\LoginInterface\IUserLoginInterface.cs" />

@@ -1,15 +1,13 @@
 ﻿
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WEB_Proje.Domain.Entities.User;
 using WEB_Proje.BussinesLogic.Interface.LoginInterface;
+using WEB_Proje.BussinesLogic.DBModel;
+using WEB_Proje.Domain.Entities;
 
 
 namespace WEB_Proje.BussinesLogic.Core {
-    public class UserEntity : UserDateLogin {
+    public abstract class UserEntity : UserDateLogin{
         
         // Constructor
         public UserEntity(UserDateLogin user){
@@ -17,24 +15,6 @@ namespace WEB_Proje.BussinesLogic.Core {
             Password = user.Password;
         }
 
-        // --- Actiuni Generice ---
-        // Autorizatie
-        public bool IUserAuthorization(UserDateLogin user) {
-            if (user.Username != null && user.Password != null) {
-                if(user.Username == Username && user.Password == Password) {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-        // Registrare
-        public bool IUserRegistration(UserDateLogin user) {
-            if(user.Username == Username && user.Password == Password) {
-                return false;
-            }
-
-            return true;
-        }
+        // Actiuni generice a utilizatorilor
     }
 }

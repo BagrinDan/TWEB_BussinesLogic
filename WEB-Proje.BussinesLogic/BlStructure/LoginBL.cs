@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WEB_Proje.BussinesLogic.Core;
+﻿using System.Linq;
 using WEB_Proje.BussinesLogic.DBModel;
 using WEB_Proje.BussinesLogic.Interface.LoginInterface;
 using WEB_Proje.Domain.Entities;
@@ -12,8 +7,8 @@ using WEB_Proje.Domain.Entities.User;
 namespace WEB_Proje.BussinesLogic.BlStructure {
     public class LoginBL : IUserLoginInterface{
 
-        // Autorizatie
-        public bool IUserAuthorization(UserDateLogin user) { // UDdTable ??
+        // --- Actiuni Generice ---
+        public bool IUserAuthorization(UserDateLogin user) { // Try-catch
             using(var db = new UserContent()) {
                 var userInDb = db.Users.FirstOrDefault(u => u.Username == user.Username && u.Password == user.Password);
                 return userInDb != null;
@@ -39,7 +34,7 @@ namespace WEB_Proje.BussinesLogic.BlStructure {
                 db.Users.Add(newUser);
                 db.SaveChanges();
 
-                return true; 
+                return true;
             }
         }
 
@@ -51,7 +46,7 @@ namespace WEB_Proje.BussinesLogic.BlStructure {
 
                 if(userInDb != null) {
                     user.Username = userInDb.Username;
-                    user.Password = userInDb.Password;  
+                    user.Password = userInDb.Password;
                     return user;
                 }
 
@@ -69,10 +64,9 @@ namespace WEB_Proje.BussinesLogic.BlStructure {
                     return null;
                 }
 
-               return user;
+                return user;
             }
         }
-
 
     }
 }
