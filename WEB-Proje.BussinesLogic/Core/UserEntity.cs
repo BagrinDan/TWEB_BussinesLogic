@@ -1,9 +1,6 @@
 ﻿
-using System.Linq;
 using WEB_Proje.Domain.Entities.User;
-using WEB_Proje.BussinesLogic.Interface.LoginInterface;
-using WEB_Proje.BussinesLogic.DBModel;
-using WEB_Proje.Domain.Entities;
+
 
 
 namespace WEB_Proje.BussinesLogic.Core {
@@ -16,5 +13,6 @@ namespace WEB_Proje.BussinesLogic.Core {
         }
 
         // Actiuni generice a utilizatorilor
+
     }
 }

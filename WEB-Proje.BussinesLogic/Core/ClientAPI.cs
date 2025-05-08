@@ -8,5 +8,11 @@ namespace WEB_Proje.BussinesLogic.Core {
         }
 
         // Actiuni specifice a lui ClientAPI...
+
+        // Logare
+
+        // Inregistrare
+
+        // 
     }
 }
