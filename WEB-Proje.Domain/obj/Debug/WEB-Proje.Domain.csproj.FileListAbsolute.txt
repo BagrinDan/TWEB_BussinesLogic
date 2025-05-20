@@ -1,0 +1,14 @@
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\bin\Debug\WEB-Proje.Domain.dll.config
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\bin\Debug\WEB-Proje.Domain.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\bin\Debug\WEB-Proje.Domain.pdb
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\bin\Debug\EntityFramework.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\bin\Debug\WEB-Proje.Helper.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\bin\Debug\WEB-Proje.Helper.pdb
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\bin\Debug\EntityFramework.xml
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\obj\Debug\WEB-Proje.Domain.csproj.AssemblyReference.cache
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\obj\Debug\WEB-Proje.Domain.csproj.CoreCompileInputs.cache
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\obj\Debug\WEB-Proj.1366AF11.Up2Date
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\obj\Debug\WEB-Proje.Domain.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.Domain\obj\Debug\WEB-Proje.Domain.pdb
