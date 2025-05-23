@@ -68,5 +68,15 @@ namespace WEB_Proje.BussinesLogic.BlStructure {
             }
         }
 
+        //!!!
+        public bool ValidatePassword(string Pass1, string Pass2) {
+            if(Pass1 == Pass2) {
+                return true;
+            } else {
+                return false;
+            }
+
+        }
+
     }
 }
