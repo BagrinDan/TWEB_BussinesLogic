@@ -7,12 +7,7 @@ namespace WEB_Proje.BussinesLogic.Core {
             Password = user.Password;
         }
 
-        // Actiuni specifice a lui ClientAPI...
+        // Cosul
 
-        // Logare
-
-        // Inregistrare
-
-        // 
     }
 }

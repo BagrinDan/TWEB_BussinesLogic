@@ -12,7 +12,9 @@ namespace WEB_Proje.BussinesLogic.Core {
             Password = user.Password;
         }
 
-        // Actiuni generice a utilizatorilor
+        // Logare
+
+        // Inregistrare
 
     }
 }

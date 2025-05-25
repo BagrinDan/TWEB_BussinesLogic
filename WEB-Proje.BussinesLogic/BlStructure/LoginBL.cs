@@ -4,9 +4,10 @@ using WEB_Proje.BussinesLogic.Interface.LoginInterface;
 using WEB_Proje.Domain.Entities;
 using WEB_Proje.Domain.Entities.User;
 
+
 namespace WEB_Proje.BussinesLogic.BlStructure {
     public class LoginBL : IUserLoginInterface{
-
+        
         // --- Actiuni Generice ---
         public bool IUserAuthorization(UserDateLogin user) { // Try-catch
             using(var db = new UserContent()) {
