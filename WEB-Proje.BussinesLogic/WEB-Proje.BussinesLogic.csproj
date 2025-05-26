@@ -167,6 +167,7 @@
     <Compile Include="DBModel\UserContent.cs" />
     <Compile Include="Interface\ISession.cs" />
     <Compile Include="Interface\LoginInterface\IUserLoginInterface.cs" />
+    <Compile Include="Interface\ProductInterface\IProductInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Session.cs" />
   </ItemGroup>
@@ -186,7 +187,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DBModel\Seed\" />
-    <Folder Include="Interface\NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ILLink\ILLink.Descriptors.LibraryBuild.xml" />
