@@ -55,6 +55,13 @@
     <Compile Include="Entities\UDdTable.cs" />
     <Compile Include="Entities\User\UserDateLogin.cs" />
     <Compile Include="Enums\URole.cs" />
+    <Compile Include="Models\Login\UserLoginModel.cs" />
+    <Compile Include="Models\Product\CartStufff.cs" />
+    <Compile Include="Models\Product\ProductModel.cs" />
+    <Compile Include="Models\Product\ProductRepository.cs" />
+    <Compile Include="Models\Product\ShopStuff.cs" />
+    <Compile Include="Models\Register\UserRegisterModel.cs" />
+    <Compile Include="Models\UserSessionInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
