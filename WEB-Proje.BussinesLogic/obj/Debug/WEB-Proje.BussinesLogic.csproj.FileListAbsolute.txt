@@ -19,6 +19,7 @@ D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\Microsoft.Extensions
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\Microsoft.Extensions.Options.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\Microsoft.Extensions.Primitives.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\Microsoft.Web.Infrastructure.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\Microsoft.Win32.Registry.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\MySql.Data.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\MySqlConnector.dll
@@ -35,8 +36,15 @@ D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Security.Prin
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Text.Encodings.Web.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Threading.Tasks.Extensions.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.ValueTuple.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.Helpers.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.Mvc.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.Razor.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.WebPages.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.WebPages.Razor.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\WEB-Proje.Domain.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\WEB-Proje.Helper.dll
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\WebActivatorEx.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\ZstdSharp.dll
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\WEB-Proje.Domain.pdb
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\WEB-Proje.Domain.dll.config
@@ -74,6 +82,12 @@ D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Security.Prin
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Text.Encodings.Web.xml
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.ValueTuple.xml
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.Helpers.xml
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.Mvc.xml
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.Razor.xml
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.WebPages.xml
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\bin\Debug\System.Web.WebPages.Razor.xml
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\obj\Debug\WEB-Proje.BussinesLogic.csproj.AssemblyReference.cache
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\obj\Debug\WEB-Proje.BussinesLogic.csproj.CoreCompileInputs.cache
 D:\CSharp\repos\WEB-Proje\WEB-Proje.BussinesLogic\obj\Debug\WEB-Proj.7BF21A47.Up2Date
