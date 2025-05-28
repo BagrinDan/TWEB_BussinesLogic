@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WEB_Proje.BussinesLogic.BlStructure;
+﻿
 using WEB_Proje.Domain.Product;
 using WEB_Proje.Domain.ShopStuff;
 

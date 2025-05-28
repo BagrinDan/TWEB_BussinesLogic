@@ -1,4 +1,7 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
+using System.Web.Security;
+using System.Web;
 using WEB_Proje.BussinesLogic.DBModel;
 using WEB_Proje.BussinesLogic.Interface.LoginInterface;
 using WEB_Proje.Domain.Entities;
@@ -76,7 +79,20 @@ namespace WEB_Proje.BussinesLogic.BlStructure {
             } else {
                 return false;
             }
+        }
 
+        public void SetAuthenticationCookies(HttpResponseBase response, HttpRequestBase request, FormsAuthenticationTicket ticket) {
+            string encryptedTicket = FormsAuthentication.Encrypt(ticket);
+            var authCookie = new HttpCookie(FormsAuthentication.FormsCookieName, encryptedTicket);
+            response.Cookies.Add(authCookie);
+
+            HttpCookie userLoginInfoCookie = new HttpCookie("UserLoginInfo");
+            userLoginInfoCookie["IP"] = request.UserHostAddress;
+            userLoginInfoCookie["LoginTime"] = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            userLoginInfoCookie.Expires = DateTime.Now.AddDays(7);
+            userLoginInfoCookie.Path = "/";
+            userLoginInfoCookie.Domain = "localhost"; 
+            response.Cookies.Add(userLoginInfoCookie);
         }
 
     }

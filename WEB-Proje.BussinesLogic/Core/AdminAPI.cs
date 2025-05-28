@@ -1,20 +1,16 @@
-﻿using WEB_Proje.BussinesLogic.DBModel;
-using WEB_Proje.Domain.Product;
+﻿using System;
 using WEB_Proje.BussinesLogic.BlStructure;
-using System;
+using WEB_Proje.Domain.Product;
 using WEB_Proje.Domain.Entities.User;
 
 namespace WEB_Proje.BussinesLogic.Core {
     public class AdminAPI : UserEntity {
         private readonly ProductBL productBL;
-        private readonly ProductContext db;
 
         public AdminAPI(UserDateLogin user) : base(user) {
             productBL = new ProductBL();
-            db = new ProductContext();
         }
 
-        // Adaugare Produs
         public bool AddProduct(ProductModel model, string serverRootPath, out string errorMessage) {
             errorMessage = null;
 
@@ -29,7 +25,7 @@ namespace WEB_Proje.BussinesLogic.Core {
             }
 
             try {
-                productBL.SaveProductDB(model, db);
+                productBL.SaveProductDB(model);
                 return true;
             }
             catch(Exception ex) {
@@ -38,20 +34,15 @@ namespace WEB_Proje.BussinesLogic.Core {
             }
         }
 
-        // Stergere Produss
         public bool DeleteProduct(int productId, out string errorMessage) {
             errorMessage = null;
-            var product = db.Products.Find(productId);
-            if(product == null) {
-                errorMessage = "Produsul nu a fost gasit.";
+
+            if(!productBL.DeleteProduct(productId)) {
+                errorMessage = "Produsul nu a fost găsit sau nu a putut fi șters.";
                 return false;
             }
 
-            db.Products.Remove(product);
-            db.SaveChanges();
             return true;
         }
-
-
     }
 }

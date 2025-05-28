@@ -11,18 +11,15 @@ namespace WEB_Proje.BussinesLogic.BlStructure {
             _session = session;
         }
 
+        // Adauga produs
         public void AddToCart(ProductModel product) {
             var cart = GetCart();
             cart.AddItem(product);
-            //var productModel = new ProductModel {
-            //    Id = product.Id,
-            //    Name = product.Name,
-            //    Price = product.Price.ToString(),
-            //    ImagePath = $"/Content/Images/product-item{product.Id}.jpg"
-            //};
+
             SaveCart(cart);
         }
 
+        // Get Cosul
         public ShopStuff GetCart() {
             var cart = _session["Cart"] as ShopStuff;
             if(cart == null) {
@@ -32,15 +29,19 @@ namespace WEB_Proje.BussinesLogic.BlStructure {
             return cart;
         }
 
+        // Salvare cosu
         public void SaveCart(ShopStuff cart) {
             _session["Cart"] = cart;
         }
+
+        // Sterge ceva din cosu
         public void RemoveFromCart(int productId) {
             var cart = GetCart();
             cart.Items.RemoveAll(i => i.ProductId == productId);
             SaveCart(cart);
         }
 
+        // Sterge tot din cos
         public void ClearCart() {
             _session["Cart"] = new ShopStuff();
         }

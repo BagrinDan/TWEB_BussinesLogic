@@ -13,5 +13,8 @@ namespace WEB_Proje.BussinesLogic.Interface.LoginInterface {
         UserDateLogin ValidateAuth(UserDateLogin user);
         // Validate Register
         UserDateLogin ValidateRegister(UserDateLogin user);
+
+        bool ValidatePassword(string Pass1, string Pass2);
+
     }
 }

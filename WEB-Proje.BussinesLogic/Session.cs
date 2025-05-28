@@ -1,5 +1,6 @@
 ﻿using WEB_Proje.Domain.Entities.User;
 using System.Web;
+using WEB_Proje.Domain.Models;
 
 
 namespace WEB_Proje.BussinesLogic {
@@ -7,15 +8,13 @@ namespace WEB_Proje.BussinesLogic {
         public static UserDateLogin GetLoggedInUser(HttpContextBase context) {
             if(context == null) return null;
 
-            var username = context.Session["Username"] as string;
-            var password = context.Session["Password"] as string;
-
-            if(string.IsNullOrEmpty(username)) return null;
+            var userInfo = context.Session["user"] as UserSessionInfo;
+            if(userInfo == null) return null;
 
             return new UserDateLogin {
-                Username = username,
-                Password = password
+                Username = userInfo.Username
             };
         }
+
     }
 }
