@@ -57,6 +57,7 @@
     <Compile Include="Enums\URole.cs" />
     <Compile Include="Models\Login\UserLoginModel.cs" />
     <Compile Include="Models\Product\CartStufff.cs" />
+    <Compile Include="Models\Product\OrderModel.cs" />
     <Compile Include="Models\Product\ProductModel.cs" />
     <Compile Include="Models\Product\ProductRepository.cs" />
     <Compile Include="Models\Product\ShopStuff.cs" />

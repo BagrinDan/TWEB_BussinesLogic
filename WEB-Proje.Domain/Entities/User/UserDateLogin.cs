@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace WEB_Proje.Domain.Entities.User {
-    public class UserDateLogin {
+    public class UserDateLogin{
         // Datele Utilizatorului 
         [Required]
         public string Username { get; set; }
